@@ -4,7 +4,7 @@ Console.WriteLine("     Правило простое: ты мне целого 
 Console.WriteLine("         И, пожалуйста, НЕ надо проверять терминал на прочность!");
 
 Console.WriteLine("Введи целое число трехзначное число:");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 
 if (Int32.TryParse(number, out int n))
 {
