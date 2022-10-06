@@ -9,7 +9,7 @@ Console.WriteLine("Итак, твое число:");
 string? number = Console.ReadLine();
 number = number?.Replace(",", "."); //автоматически конветирует запятую в точку при неправильном вводе дробного числа
 
-if (Double.TryParse(number, out double n)) //преобразует 4ю строку в число дробного типа (работает с целым)
+if (Double.TryParse(number, out double n)) //преобразует 4ю строку в число дробного типа 
 {
     if(Math.Abs(n) >= 100) //дает возможность испльзовать отрицательное число на ввод
     {
