@@ -6,7 +6,7 @@ double[] newArray(double[] array)
 {
     for (int i=0; i < array.Length; i++)
      {
-        array[i] = Convert.ToDouble(new Random().Next(0, 100)/10.0);
+        array[i] = new Random().Next(0, 100) + Convert.ToDouble(new Random().Next(11)/10.0);
      }
      return array;
 }
