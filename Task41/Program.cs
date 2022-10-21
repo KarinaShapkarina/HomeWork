@@ -77,38 +77,4 @@ while (Cube)
 
 
 
-// int[] array1 = new Int32[8];
-// int[] array2 = new Int32[8];
 
-// randomFilling(array1, min:0,  max: 100);
-// arrayOutput(array1);
-// copy(array1, array2);
-// arrayOutput(array2);
-
-// void copy(int[] array1, int[] array2)
-// {
-//     for (int i = 0; i < array1.Length; i++)
-//     {
-//         array2[i] = array1[i] ;
-//     }
-// }
-
-
-
-// void randomFilling(int[] arr, int min, int max)
-// {
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         arr[i] = new Random().Next(min, max);
-//     }
-// }
-
-// void arrayOutput(int[] arr)
-// {
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         Console.Write($"{arr[i]}");
-//         if (i < (arr.Length -1)) Console.Write($", ");
-//     }
-//     Console.WriteLine(" ");
-// }
